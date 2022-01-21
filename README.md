@@ -28,7 +28,11 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 ## Summary
 
-This is a Regex tutorial on how to use an expression to define a phone number! We will be using this expression: ^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$
+This is a Regex tutorial on how to use an expression to define a phone number! We will be using this expression: 
+
+```
+^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$
+```
 
 Below you will find what each piece of the expression means and how it works!
 
